@@ -7,17 +7,17 @@
 //      02/28/2020 add some notes and finish homework 4 and 5
 //
 //
-//homework 2:
+//homework b:
 //Simpson's rule:using f(x)=10**(a*log10(x)+b) to fit the data,then find a=-3.78138,b=1.86655.It looks like a line in logscale.
 //Milne rule:using f(x)=10**(a*log10(x)+b) to fit the data,then find a=-5.15001,b=3.38446.It looks like a line in logscale.
 //
-//homework 3:
+//homework c:
 //In the plot we see that by the increase of x(max_intervals),the error will be smaller.In notes,it says that e_total=N**(-beta)+sqrt(N)e_m,so when N get larger,e_total will get smaller.They actually get the same conclusion.so we can get the max N using for Milne rule(as it possible),it will get the best answer.
 //
-//homework 4:
+//homework d:
 //I used the three methods to calculate the integration of 1./((1.+x)*sqrt(x)) from 0 to 2.It turns out that with Simpson's rule and Milne rule the result is inf,but with GSL function it gets the same answer with the handout(1.9106).I think it is because that using Simpson's rule or Milne rule,it will calculate sum of (f(x)*h),while h is a limited value.But when x get very close to 0,f(x) will be approach to inf,so f(x)*h will be approach to inf,it can't get the correct answer.However,using the function of GSL will not get into this troble.
 //
-//homework 5:
+//homework e:
 //For Simpson's rule,I add some codes to calculate the integration of 2N,then get the plot of (A(N)-A(2N))/A(2N).From the note,I set f(x)=a*x**b to fit the plot,and get a=0.138764,b=-0.956696.I get the result that beta=-0.956656,so the approxiation error should be alpha/N^(0.956696) (We can not know the value of alpha because we don't know the A_exact.)
 //
 //************************************************************************
