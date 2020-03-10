@@ -1,0 +1,28 @@
+# HW grading scale: check(++) --> excellent (good code and analysis AND also completed bonus problem)  
+#                   check(+) --> excellent (good code and analysis)  
+#                   check    --> satisfactory (minor shortcomings in code and/or analysis)
+#                   check(-) --> significant problems w/code or analysis
+
+1) Problem 1 (area.cpp embellishments): 
+
+Your code looks ok to me.  
+
+2)Problem 2 (sum up/down): 
+
+Your figure and output data looks off. Your code is a little bit confusing. There is no loop over
+N and the summing up and summing down calculations should be put into separate functions (i.e.,
+not coded in the main program).
+ 
+
+3) Problem 3 (bessel functions): 
+
+The figure seems way off. You might want to double check your code/plotting of the data.  
+
+
+4) Extra problem (roundoff distribution):
+NA
+
+##### HW grade = check(-)
+ 
+
+Upgrade your grade: Fix the problems with problems 2 and 3 to get a check(+). Additionally do the bonus for a check(++). 
